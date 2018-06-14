@@ -17,13 +17,12 @@ namespace Installer
         {
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
+            this.Icon = new Icon("logo.ico");
+            this.Text = Application.ProductName;
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            versionNumberLabel.Text = Properties.Settings.Default.version;
-        }
+        private void Form1_Load(object sender, EventArgs e) {}
 
         private void userDbServerButton_Click(object sender, EventArgs e)
         {
@@ -35,6 +34,14 @@ namespace Installer
         {
             Console.WriteLine("Start UserDB Client");
             Process.Start(@".\apps\userDb\client\User Database Client.exe");
+        }
+
+        private void openAboutBox(object sender,EventArgs e)
+        {
+            AboutBox aboutBox = new AboutBox();
+            aboutBox.Icon = new Icon("logo.ico");
+            aboutBox.Name = "About" + Application.ProductName;
+            aboutBox.Show();
         }
     }
 }

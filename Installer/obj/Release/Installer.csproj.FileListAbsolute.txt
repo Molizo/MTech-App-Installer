@@ -7,3 +7,7 @@ C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.cs
 C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.csproj.CoreCompileInputs.cache
 C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.exe
 C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.pdb
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.csprojAssemblyReference.cache
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.AboutBox.resources
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\launcher.Properties.Resources.resources
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\launcher.Form1.resources

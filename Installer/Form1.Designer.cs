@@ -32,14 +32,13 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.userDbServerButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.userDbServerButton = new System.Windows.Forms.Button();
+            this.userDbClientButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.installLocationDialog = new System.Windows.Forms.FolderBrowserDialog();
-            this.userDbClientButton = new System.Windows.Forms.Button();
-            this.versionNumberLabel = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -70,10 +69,9 @@
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.317073F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 92.68293F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 699F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 700F));
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.versionNumberLabel, 2, 2);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 45);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
@@ -92,24 +90,13 @@
             this.tableLayoutPanel3.Controls.Add(this.label2, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.userDbServerButton, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.userDbClientButton, 1, 1);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(96, 3);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(95, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(691, 73);
             this.tableLayoutPanel3.TabIndex = 1;
-            // 
-            // userDbServerButton
-            // 
-            this.userDbServerButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.userDbServerButton.Location = new System.Drawing.Point(604, 3);
-            this.userDbServerButton.Name = "userDbServerButton";
-            this.userDbServerButton.Size = new System.Drawing.Size(84, 30);
-            this.userDbServerButton.TabIndex = 0;
-            this.userDbServerButton.Text = "Server";
-            this.userDbServerButton.UseVisualStyleBackColor = true;
-            this.userDbServerButton.Click += new System.EventHandler(this.userDbServerButton_Click);
             // 
             // label1
             // 
@@ -135,6 +122,28 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "A C++ console application for managing users via a network.";
             // 
+            // userDbServerButton
+            // 
+            this.userDbServerButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.userDbServerButton.Location = new System.Drawing.Point(604, 3);
+            this.userDbServerButton.Name = "userDbServerButton";
+            this.userDbServerButton.Size = new System.Drawing.Size(84, 30);
+            this.userDbServerButton.TabIndex = 0;
+            this.userDbServerButton.Text = "Server";
+            this.userDbServerButton.UseVisualStyleBackColor = true;
+            this.userDbServerButton.Click += new System.EventHandler(this.userDbServerButton_Click);
+            // 
+            // userDbClientButton
+            // 
+            this.userDbClientButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.userDbClientButton.Location = new System.Drawing.Point(604, 39);
+            this.userDbClientButton.Name = "userDbClientButton";
+            this.userDbClientButton.Size = new System.Drawing.Size(84, 31);
+            this.userDbClientButton.TabIndex = 0;
+            this.userDbClientButton.Text = "Client";
+            this.userDbClientButton.UseVisualStyleBackColor = true;
+            this.userDbClientButton.Click += new System.EventHandler(this.userDbClientButton_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -143,7 +152,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(9, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(81, 73);
+            this.pictureBox1.Size = new System.Drawing.Size(80, 73);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -157,30 +166,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
-            // 
-            // userDbClientButton
-            // 
-            this.userDbClientButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.userDbClientButton.Location = new System.Drawing.Point(604, 39);
-            this.userDbClientButton.Name = "userDbClientButton";
-            this.userDbClientButton.Size = new System.Drawing.Size(84, 31);
-            this.userDbClientButton.TabIndex = 0;
-            this.userDbClientButton.Text = "Client";
-            this.userDbClientButton.UseVisualStyleBackColor = true;
-            this.userDbClientButton.Click += new System.EventHandler(this.userDbClientButton_Click);
-            // 
-            // versionNumberLabel
-            // 
-            this.versionNumberLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.versionNumberLabel.AutoSize = true;
-            this.versionNumberLabel.Enabled = false;
-            this.versionNumberLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F);
-            this.versionNumberLabel.Location = new System.Drawing.Point(718, 390);
-            this.versionNumberLabel.Name = "versionNumberLabel";
-            this.versionNumberLabel.Size = new System.Drawing.Size(72, 12);
-            this.versionNumberLabel.TabIndex = 3;
-            this.versionNumberLabel.Text = "Version Number";
-            this.versionNumberLabel.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.pictureBox2.Click += new System.EventHandler(this.openAboutBox);
             // 
             // Form1
             // 
@@ -193,7 +179,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -214,7 +199,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.FolderBrowserDialog installLocationDialog;
         private System.Windows.Forms.Button userDbClientButton;
-        private System.Windows.Forms.Label versionNumberLabel;
     }
 }
 
