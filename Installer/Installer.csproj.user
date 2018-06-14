@@ -3,10 +3,10 @@
   <PropertyGroup>
     <PublishUrlHistory>ftp://mihneavisoiu.ro/public_html/applauncher/|publish\</PublishUrlHistory>
     <InstallUrlHistory>https://mihneavisoiu.ro/applauncher/|https://mihneavisoiu.ro/public_html/applauncher/</InstallUrlHistory>
-    <SupportUrlHistory />
+    <SupportUrlHistory>https://mihneavisoiu.ro</SupportUrlHistory>
     <UpdateUrlHistory />
     <BootstrapperUrlHistory />
-    <ErrorReportUrlHistory />
+    <ErrorReportUrlHistory>https://mihneavisoiu.ro</ErrorReportUrlHistory>
     <FallbackCulture>en-US</FallbackCulture>
     <VerifyUploadedFiles>true</VerifyUploadedFiles>
   </PropertyGroup>

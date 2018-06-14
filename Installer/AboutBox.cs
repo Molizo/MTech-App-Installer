@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Installer
@@ -18,7 +13,7 @@ namespace Installer
             labelProductName.Text = Application.ProductName;
             labelProductDeveloper.Text = "Made by MTech";
             labelCopyright.Text = String.Format("Copyright 2016 - {0} Visoiu Mihnea Theodor", System.DateTime.Now.Year);
-            labelWebsite.Text = "For Support please visit https://mihneavisoiu.ro";
+            labelWebsite.Text = "For support please visit https://mihneavisoiu.ro";
             labelVersion.Text = String.Format("Version {0} - Public Release", Application.ProductVersion);
         }
 
@@ -100,6 +95,7 @@ namespace Installer
                 return ((AssemblyCompanyAttribute)attributes[0]).Company;
             }
         }
-        #endregion
+
+        #endregion Assembly Attribute Accessors
     }
 }

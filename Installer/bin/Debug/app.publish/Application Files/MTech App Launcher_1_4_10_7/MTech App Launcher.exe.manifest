@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MTech App Launcher.exe" version="1.4.10.7" publicKeyToken="d7acadd4c2b7a802" language="en-GB" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MTech App Launcher" version="1.4.10.2" publicKeyToken="CA8C947F72DA0527" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MTech App Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MTech App Launcher.exe" size="217096">
+      <assemblyIdentity name="MTech App Launcher" version="1.4.10.2" publicKeyToken="CA8C947F72DA0527" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FWFLylCtLqqJpfIlneOQT9BdPvSJOluJPuZyIp66Tsw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="apps\userDb\client\Database.cab" size="0">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="apps\userDb\client\FTP.txt" size="41">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jp9LpWdAOmElSD1pt7e4Oic2V+DLtUXg/b/o64rNGBU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="apps\userDb\client\README.txt" size="1640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mvR1qr0QgB8KnsysQ54eZXxgUYrTpNCTXb2QysdnDRo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="apps\userDb\client\ServerPing.txt" size="49">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RCwMXOA/+Of/qPeqZQpxjMMYztR6M711GeBmUFp+Zxs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="apps\userDb\client\User Database Client.exe" size="1061011">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v4OkG2sTC2b5LXF94r2/lFVq0H87TB8cLVtCexy44IA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="apps\userDb\server\Database Server.exe" size="987873">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PJ15fxwpQ2JA5EPwst3QBR7mPSeywDXWiIxoNDi3JwE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="apps\userDb\server\NTserver.exe" size="65536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TwO7XgXmSzx69OpRQQebB1jPBNsRcOxZtpDGwToWack=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logo.ico" size="160798">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6u+1vsBnkWI/bWiRJdw/F+3zVhBvKFpe9y/Dg7NVuxg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logo.png" size="25673">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>orI57Zjf4kvdsdi/17CnyjT/CAzpr0/yax9zQPLSREc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MTech App Launcher.exe.config" size="344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hQtb4fM2faI8MEoDkN3FMUWxPD3TjPFMRrLs7rNzzAU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=MOLIZO-LAPTOP\Mihnea Visoiu" issuerKeyHash="4b0da8d89305ed0ac665405b1500a41a6d0b4b6d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YVVB7oyVLHsrP4/XoAZ5MC73FMNLk7kNMxdFus8m/4g=</DigestValue></Reference></SignedInfo><SignatureValue>LNyWPVE0JtpArjzjOesvJZVbihlRn3TEhuhC0C1i080KTxre/TOHCbuDVUphiT8tDO5ScVPRTq11d4lJsRuSrQx8ypu9hp8BlrlDg7rnAnEW/9pfffOAaKuHWNO2uyNXl5bc0WE5ky4emRUcJ6PvY21NiZ2NkxBhd7zkUQFHLN4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oq9eJk2BDDMofd5wp5cxQqWxSOVV/IsbT1fC7Ru94KgBM9HiYaVnWkTbi3DXKDN3EoYFvv+c7RbZi6yixdDqy5ju5OACisWrwR9p+C4SxHjQ9uoSoHV/6U4uj/n3i2ZbLZ8bSHCcA8Y9Zhf+e5PLYWnaxks9ORwBJoXWZinldDE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="88ff26cfba4517330db9934bc314f72e307906a0d78f3f2b7b2c958cee415561" Description="" Url=""><as:assemblyIdentity name="MTech App Launcher.exe" version="1.4.10.7" publicKeyToken="d7acadd4c2b7a802" language="en-GB" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MOLIZO-LAPTOP\Mihnea Visoiu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WxOdkEvHD4ImqlEVwhrBdtOfIYoJftrU0QWHuHxzFIk=</DigestValue></Reference></SignedInfo><SignatureValue>CgzN6hOe+G9Jpfv4J096uxB3SeXXiPqQ/dWlVPpDgpY5pLJ1VR/Ch5de8qn/uHcI0wfKFLSHTArjmvi7SFsvfbn+30c8cU1GH6iYyuHmwtC4pzf0xL0CNA678YZQ9xlUoOvxhfLGJ9l2y9BerZxgoZtQArqKBozODrjepgSAskw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oq9eJk2BDDMofd5wp5cxQqWxSOVV/IsbT1fC7Ru94KgBM9HiYaVnWkTbi3DXKDN3EoYFvv+c7RbZi6yixdDqy5ju5OACisWrwR9p+C4SxHjQ9uoSoHV/6U4uj/n3i2ZbLZ8bSHCcA8Y9Zhf+e5PLYWnaxks9ORwBJoXWZinldDE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQVyUckGO/NblCNHz3aY37hDANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYATQBPAEwASQBaAE8ALQBMAEEAUABUAE8AUABcAE0AaQBoAG4AZQBhACAAVgBpAHMAbwBpAHUwHhcNMTgwNjE0MDgyNDMzWhcNMTkwNjE0MTQyNDMzWjBBMT8wPQYDVQQDHjYATQBPAEwASQBaAE8ALQBMAEEAUABUAE8AUABcAE0AaQBoAG4AZQBhACAAVgBpAHMAbwBpAHUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKKvXiZNgQwzKH3ecKeXMUKlsUjlVfyLG09Xwu0bveCoATPR4mGlZ1pE24tw1ygzdxKGBb7/nO0W2YusosXQ6suY7uTgAorFq8EfafguEsR40PbqEqB1f+lOLo/594tmWy2fG0hwnAPGPWYX/nuTy2Fp2sZLPTkcASaF1mYp5XQxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAl76cz7FO1eU6RMx3/oJngqfM6zbNxSfXL9uMrjTspNggzndgXs9LImDYMzYwQZX424eyfZZPNx2lPwkQgBuSGrVzYtQHw85Ko3auRoliBH08Gj/Nv9hkYO3zeHncarExOCHlhDy40ZvfB9BmbXLGHHqYNbMSbiVK/r8rFBNBKDo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

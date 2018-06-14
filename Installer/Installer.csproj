@@ -17,24 +17,27 @@
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
+    <UpdateMode>Background</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
+    <MapFileExtensions>false</MapFileExtensions>
     <InstallUrl>https://mihneavisoiu.ro/applauncher/</InstallUrl>
     <SupportUrl>https://mihneavisoiu.ro</SupportUrl>
     <ErrorReportUrl>https://mihneavisoiu.ro</ErrorReportUrl>
+    <TargetCulture>en-GB</TargetCulture>
     <ProductName>MTech App Launcher</ProductName>
     <PublisherName>Molizo</PublisherName>
     <SuiteName>MTech App Suite</SuiteName>
     <MinimumRequiredVersion>1.4.10.1</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
-    <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>5</ApplicationRevision>
+    <WebPage>index.htm</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>8</ApplicationRevision>
     <ApplicationVersion>1.4.10.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -137,6 +140,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="apps\userDb\client\DefaultSettings.ini" />
+    <None Include="apps\userDb\server\ServerTasks.bat" />
     <None Include="Installer_TemporaryKey.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
@@ -170,8 +175,18 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="apps\userDb\client\Database.cab" />
+    <Content Include="apps\userDb\client\FTP.txt" />
+    <Content Include="apps\userDb\client\README.txt" />
+    <Content Include="apps\userDb\client\ServerPing.txt" />
+    <Content Include="apps\userDb\client\User Database Client.exe" />
+    <Content Include="apps\userDb\server\Database Server.exe" />
+    <Content Include="apps\userDb\server\NTserver.exe" />
     <Content Include="logo.ico" />
     <Content Include="logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="apps\userDb\client\Plugins\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
