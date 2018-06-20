@@ -15,7 +15,7 @@ namespace Installer
     {
         public Form1()
         {
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            ///this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Icon = new Icon("logo.ico");
             InitializeComponent();
@@ -24,19 +24,15 @@ namespace Installer
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Text = Application.ProductName;
+            tabControl.Appearance = TabAppearance.FlatButtons;
+            tabControl.ItemSize = new Size(0, 1);
+            tabControl.SizeMode = TabSizeMode.Fixed;
         }
 
-        private void userDbServerButton_Click(object sender, EventArgs e)
-        {
-            Console.WriteLine("Start UserDB Server");
-            Process.Start(@".\apps\userDb\server\Database Server.exe");
-        }
-
-        private void userDbClientButton_Click(object sender, EventArgs e)
-        {
-            Console.WriteLine("Start UserDB Client");
-            Process.Start(@".\apps\userDb\client\User Database Client.exe");
-        }
+        private void TabButton1_Click(object sender, EventArgs e)
+        { tabControl.SelectedTab = tabPage1; }
+        private void TabButton2_Click(object sender, EventArgs e)
+        { tabControl.SelectedTab = tabPage2; }
 
         private void openAboutBox(object sender,EventArgs e)
         {

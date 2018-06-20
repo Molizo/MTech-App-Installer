@@ -16,3 +16,5 @@ C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Debug\MTech App Laun
 C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Debug\MTech App Launcher.application
 C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Debug\MTech App Launcher.exe
 C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Debug\MTech App Launcher.pdb
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\bin\Debug\MaterialSkin.dll
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Debug\Installer.csproj.CopyComplete
