@@ -1,2 +1,5 @@
-language: csharp
-solution: Installer.sln
+{
+    "os": "windows",
+    "language": "csharp",
+    "solution": "Installer.sln"
+}
