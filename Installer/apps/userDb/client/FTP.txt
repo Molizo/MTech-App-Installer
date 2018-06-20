@@ -1,3 +1,0 @@
-open 192.168.75.1 55
-get Login.crt
-quit
