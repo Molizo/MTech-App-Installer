@@ -1,0 +1,13 @@
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\bin\Release\Installer.exe.config
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\bin\Release\Installer.exe
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\bin\Release\Installer.pdb
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.Form1.resources
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.Properties.Resources.resources
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.csproj.GenerateResource.cache
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.csproj.CoreCompileInputs.cache
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.exe
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.pdb
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.csprojAssemblyReference.cache
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\Installer.AboutBox.resources
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\launcher.Properties.Resources.resources
+C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Release\launcher.Form1.resources

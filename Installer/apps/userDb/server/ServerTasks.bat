@@ -1,0 +1,1 @@
+NTserver -p 21 -ha 127.0.0.1 "%AppData%\.Database Server
