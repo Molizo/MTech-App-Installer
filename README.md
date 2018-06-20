@@ -4,7 +4,7 @@
 ### Build status
 |Branch|Build Status|Version|
 |------|---------------|-------|
-|master|![Build status](https://ci.appveyor.com/api/projects/status/1bo5i6v3k34xg52a/branch/master?retina=true)](https://ci.appveyor.com/project/Molizo/mtech-app-installer/branch/master)|![v1.0.0](https://github.com/Molizo/MTech-App-Launcher/releases/latest)|
+|master|[![Build status](https://ci.appveyor.com/api/projects/status/1bo5i6v3k34xg52a/branch/master?retina=true)](https://ci.appveyor.com/project/Molizo/mtech-app-installer/branch/master)|![v1.0.0](https://github.com/Molizo/MTech-App-Launcher/releases/latest)|
 |dev|'unavailable'|'unavailable'|
 
 ### License
