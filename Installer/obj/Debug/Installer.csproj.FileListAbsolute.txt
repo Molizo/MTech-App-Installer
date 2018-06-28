@@ -16,3 +16,16 @@ C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Debug\MTech App Laun
 C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Debug\MTech App Launcher.application
 C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Debug\MTech App Launcher.exe
 C:\Users\Mihnea Visoiu\source\repos\Installer\Installer\obj\Debug\MTech App Launcher.pdb
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\bin\Debug\MTech App Launcher.exe.config
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\bin\Debug\MTech App Launcher.exe
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\bin\Debug\MTech App Launcher.pdb
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\bin\Debug\MTech App Launcher.exe.CodeAnalysisLog.xml
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\bin\Debug\MTech App Launcher.exe.lastcodeanalysissucceeded
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\obj\Debug\Installer.csprojAssemblyReference.cache
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\obj\Debug\Installer.AboutBox.resources
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\obj\Debug\Installer.Form1.resources
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\obj\Debug\Installer.Properties.Resources.resources
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\obj\Debug\Installer.csproj.GenerateResource.cache
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\obj\Debug\Installer.csproj.CoreCompileInputs.cache
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\obj\Debug\MTech App Launcher.exe
+C:\Users\Mihnea Visoiu\source\repos\MTech-App-Launcher\Installer\obj\Debug\MTech App Launcher.pdb
