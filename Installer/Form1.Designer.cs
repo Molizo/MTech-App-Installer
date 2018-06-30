@@ -31,14 +31,14 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("Fully-fledged programs", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("1");
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("2");
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("3");
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("4");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("MTech App Launcher");
+            System.Windows.Forms.ListViewGroup listViewGroup2 = new System.Windows.Forms.ListViewGroup("Fully-fledged programs", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("Schedule Manager");
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("Simple Web Browser");
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("User Database");
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.Column1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.installLocationDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.tableLayoutPanel1.SuspendLayout();
@@ -76,24 +76,24 @@
             // 
             // listView1
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.Column1});
             this.listView1.GridLines = true;
             listViewGroup1.Header = "Fully-fledged programs";
             listViewGroup1.Name = "listViewGroup1";
             this.listView1.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
             listViewGroup1});
-            listViewItem1.Group = listViewGroup1;
-            listViewItem1.StateImageIndex = 0;
+            listViewItem1.Checked = true;
+            listViewGroup2.Header = "Fully-fledged programs";
+            listViewGroup2.Name = "listViewGroup1";
+            listViewItem1.Group = listViewGroup2;
+            listViewItem1.StateImageIndex = 2;
             listViewItem2.Checked = true;
-            listViewItem2.Group = listViewGroup1;
+            listViewItem2.Group = listViewGroup2;
             listViewItem2.StateImageIndex = 1;
             listViewItem3.Checked = true;
-            listViewItem3.Group = listViewGroup1;
-            listViewItem3.StateImageIndex = 2;
-            listViewItem4.Checked = true;
-            listViewItem4.Group = listViewGroup1;
-            listViewItem4.StateImageIndex = 3;
+            listViewItem3.Group = listViewGroup2;
+            listViewItem3.StateImageIndex = 3;
+            listViewItem4.Group = listViewGroup2;
+            listViewItem4.StateImageIndex = 0;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2,
@@ -103,14 +103,12 @@
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(793, 402);
+            this.listView1.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.listView1.StateImageList = this.imageList1;
             this.listView1.TabIndex = 2;
             this.listView1.TileSize = new System.Drawing.Size(5, 5);
             this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
-            // Column1
-            // 
-            this.Column1.Text = "Column 1";
+            this.listView1.View = System.Windows.Forms.View.SmallIcon;
             // 
             // imageList1
             // 
@@ -143,7 +141,6 @@
         private System.Windows.Forms.FolderBrowserDialog installLocationDialog;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.ColumnHeader Column1;
     }
 }
 
